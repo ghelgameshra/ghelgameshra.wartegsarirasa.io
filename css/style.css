@@ -1,0 +1,99 @@
+@font-face {
+    font-family: alef-reg;
+    src: url("../font/alef-reguler.ttf");
+}
+
+@font-face {
+    font-family: alef-bold;
+    src: url("../font/alef-bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #B6E4BC;
+}
+
+li,
+a,
+button {
+    /* font-family: ;
+    font-weight: ; */
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #0B6D18;
+    box-shadow: grey 0px 4px 4px;
+    font-family: alef-bold;
+}
+
+.logo {
+    font-family: alef-bold;
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 28px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #20af33;
+}
+
+button {
+    font-family: alef-bold;
+    padding: 7px 30px;
+    background-color: white;
+    color: #0B6D18;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 15px;
+}
+
+button:hover {
+    background-color: #20af33;
+    color: white;
+}
+
+footer {
+    background-color: #035A0E;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    padding: 5px;
+    font-family: alef-reg;
+    color: white;
+    font-size: 14px;
+}
